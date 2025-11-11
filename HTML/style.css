@@ -130,7 +130,7 @@ header {
 .card-btn {
   display: inline-block;
   padding: 12px 0;
-  width: 80%;
+  width: 100%;
   border: none;
   border-radius: 30px;
   background: linear-gradient(90deg, #8a2be2, #ff4b2b);
@@ -140,6 +140,8 @@ header {
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.3s;
+  display: flex;
+    justify-content: center;
 }
 
 
@@ -410,4 +412,11 @@ h5,
   font-size: 20px;
   line-height: 1.6;
   margin: 0 200px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
