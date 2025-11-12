@@ -449,7 +449,7 @@ textarea {
 
 .cta-content h3,
 p {
-  color: #fff !important;
+  /* color: #fff !important; */
 }
 
 .cta-btn {
