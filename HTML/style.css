@@ -402,7 +402,7 @@ textarea {
 }
 
 .news-head {
-  font-size: 48px;
+  font-size: clamp(40px, 5vw, 48px);
   font-weight: 700;
   padding-bottom: 20px;
 }
@@ -506,12 +506,7 @@ textarea {
   }
 }
 
-@media (max-width: 1000px) {
-  .body {
-    margin: 20px;
-    ;
-  }
-}
+
 
 
 .swiper-slide img {
@@ -539,3 +534,13 @@ textarea {
 
 
 /* slider end */
+
+.news-fea{
+    margin: 0 130px;
+}
+
+@media (max-width: 1000px) {
+  .news-fea{
+    margin: 0px;
+}
+}
