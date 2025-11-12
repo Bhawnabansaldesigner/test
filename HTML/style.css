@@ -73,12 +73,6 @@ header {
 
 /* best offer */
 
-/* .card-Container {
-  padding: 40px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .card-bg {
   background-color: #F9FAFB;
@@ -350,11 +344,12 @@ textarea {
   height: 100px;
 }
 
-/* .char-info {
+.char-info {
   text-align: right;
+  padding-top: 5px;
   font-size: 12px;
   color: #888;
-} */
+}
 
 .contact {}
 
@@ -423,7 +418,6 @@ textarea {
   width: 100%;
   max-width: 300px;
   border-radius: 50px;
-  /* justify-content: center; */
 }
 
 .cta {
@@ -433,9 +427,6 @@ textarea {
   border-radius: 20px;
 }
 
-/* .get-start{
-  padding: 20px;
-} */
 
 .cta-content {
   padding: 30px;
@@ -447,25 +438,32 @@ textarea {
   justify-content: center;
 }
 
-.cta-content h3,
-p {
-  /* color: #fff !important; */
-}
+
 
 .cta-btn {
   padding: 12px 30px;
   border-radius: 30px;
-  /* background: #fff; */
-  background-color: var(--gradient-btn);
+  background: linear-gradient(135deg, #1F2937, #111827);
   width: fit-content;
-  color: rgb(0, 0, 0);
+  color: #fff;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.cta-icon{
-  background-color: var(--gradient-btn);
+.cta-btn:hover {
+  background: linear-gradient(90deg, #8a2be2, #ff4b2b);
+  transition: all 0.3s ease;
+}
+
+
+.cta-para,
+.cta-heading {
+  color: #ffffff;
 }
