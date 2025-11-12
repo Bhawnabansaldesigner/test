@@ -25,9 +25,11 @@
 
 
 :root {
-  --primary: linear-gradient(180deg, rgba(255, 255, 255, 0) 52.97%, rgba(255, 255, 255, 0.658) 90.62%, #FFFFFF 100%),
-    linear-gradient(101.9deg, #851ec0 1.09%, #d32e80 50.91%, #A036DD 100.74%);
+  --primary: linear-gradient(180deg, rgba(255, 255, 255, 0) 52.97%
+52.97%
+, #c300ff 90.62%, #ffffff3f 100%), linear-gradient(101.9deg, #851ec0 1.09%, #d32e80 50.91%, #a036dd 100.74%);
   --gradient: linear-gradient(90.93deg, #FDDD47 0.6%, #FB953C 66.79%);
+  
 }
 
 
@@ -108,6 +110,10 @@ h2,
   font-weight: 500;
   line-height: 1.2;
   color: #1f2937;
+}
+
+h6{
+  margin-bottom: 0px !important;
 }
 
 h1,
@@ -199,10 +205,6 @@ p,
 
 
 
-
-
-
-
 @media (min-width: 1200px) {
 
   .text-para,
@@ -211,8 +213,6 @@ p,
     margin: 0 300px;
   }
 }
-
-
 
 /* heading end */
 
@@ -273,9 +273,7 @@ p,
 
 /* button start */
 
-.buttons {
-  margin-top: 30px;
-}
+
 
 .btn {
   display: inline-block;
@@ -338,6 +336,10 @@ p,
 
 .black-gradient{
   background: linear-gradient(135deg, #1F2937, #111827);
+}
+
+.blue-purple-gradient{
+  background: linear-gradient(131deg,rgba(43, 96, 235, 1) 0%, rgba(143, 52, 234, 1) 88%);
 }
 
 .blue-gradient{
