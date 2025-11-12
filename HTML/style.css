@@ -31,7 +31,6 @@
 .hero {
   padding: 80px 20px 50px;
   color: #fff;
-  text-align: center;
 }
 
 .heading-text {
@@ -82,12 +81,13 @@
 }
 
 .card {
+  text-align: center;
   position: relative;
   background: #fff;
   border-radius: 20px;
   padding: 30px 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  text-align: center;
+
   transition: transform 0.3s ease;
 }
 
@@ -166,7 +166,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   border: 1px solid #f5f5f5;
   transition: transform 0.3s ease,
-    box-shadow 0.3s ease;
+  box-shadow 0.3s ease;
 }
 
 .feature:hover {
@@ -293,7 +293,7 @@
 }
 
 
-.start{
+.start {
   display: flex;
   font-size: 20px;
   color: #FFD700;
@@ -464,10 +464,6 @@ textarea {
 }
 
 .cta-btn:hover {
-
-  /* background-color: #ffffff00;
-  border: 2px solid white;
-    */
   transition: all 0.3s ease;
   background: linear-gradient(135deg, #c300ff, #ff0077);
 }
@@ -492,35 +488,30 @@ textarea {
   height: 100%;
 }
 
-.test-slider{
+.test-slider {
   text-align: center;
   font-size: 16px;
   line-height: 1.6;
   border: 1px solid #d8d8d8;
   border-radius: 5px;
-  /* background: #444; */
   padding: 20px;
   color: #323232;
 }
 
 
- @media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .test-slider {
-    margin: 20px;;
+    margin: 20px;
+    ;
   }
 }
 
- @media (max-width: 1000px) {
-  .body{
-    margin: 20px;;
+@media (max-width: 1000px) {
+  .body {
+    margin: 20px;
+    ;
   }
-
-
 }
-
-
-
-.swiper-slide {}
 
 
 .swiper-slide img {
@@ -530,19 +521,18 @@ textarea {
   object-fit: cover;
 }
 
-.test-img{
-  /* width: 30px; */
+.test-img {
   height: 30px;
   border-radius: 50%;
   padding-right: 15px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   margin-bottom: 50px;
 }
 
 .testimonial-text,
-.author-name{
+.author-name {
   text-align: left;
 }
 

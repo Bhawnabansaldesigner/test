@@ -107,7 +107,6 @@ h2,
 .h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
   line-height: 1.2;
   color: #1f2937;
 }
@@ -133,7 +132,6 @@ h2,
 .h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #1f2937;
 }
 
 @media (min-width: 1200px) {
@@ -197,10 +195,8 @@ p,
 
 
 .text-para {
-  font-size: 18px;
   line-height: 2.2rem;
   font-weight: 300;
-  /* margin: 0 50px; */
 }
 
 
@@ -245,9 +241,6 @@ p,
   align-items: center;
 }
 
-.text-align-center {
-  text-align: center;
-}
 
 
 .justify-content {
@@ -267,8 +260,6 @@ p,
 }
 
 /* Flex ___________ End ////////////*/
-
-
 
 
 /* button start */
@@ -314,10 +305,6 @@ p,
   background: #ff5a3c;
 }
 
-.blue {
-  background: #007bff;
-}
-
 .purple {
   background: #8a2be2;
 }
@@ -358,8 +345,6 @@ p,
 /* button end */
 
 
-
-/* bootstrap */
 
 @media (min-width: 576px) {
 
