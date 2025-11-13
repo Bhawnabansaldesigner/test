@@ -211,6 +211,20 @@ p,
   padding-bottom: 60px;
 }
 
+@media (max-width: 768px) {
+
+  .space {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .hero {
+    padding: 50px 20px 20px;
+    color: #fff;
+  }
+
+}
+
 .pt-3 {
   padding-top: 30px;
 }
@@ -277,7 +291,7 @@ p,
 
 .btn-primary {
   background: white;
-  color: #8a00d4;
+  color: #241B76;
 }
 
 .btn-primary:hover {
@@ -292,7 +306,7 @@ p,
 
 .btn-outline:hover {
   background: white;
-  color: #8a00d4;
+  color: #241B76;
 }
 
 .badge.purple {
