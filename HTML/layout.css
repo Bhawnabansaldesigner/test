@@ -195,11 +195,7 @@ p,
 
 @media (min-width: 1200px) {
 
-  .text-para,
-  .text-para {
-    font-size: 22px;
-    margin: 0 300px;
-  }
+
 }
 
 /* heading end */
@@ -211,19 +207,7 @@ p,
   padding-bottom: 60px;
 }
 
-@media (max-width: 768px) {
 
-  .space {
-    padding-top: 40px;
-    padding-bottom: 60px;
-  }
-
-  .hero {
-    padding: 50px 20px 20px;
-    color: #fff;
-  }
-
-}
 
 .pt-3 {
   padding-top: 30px;
