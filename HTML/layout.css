@@ -24,17 +24,6 @@
 }
 
 
-:root {
-  /* --primary: linear-gradient(180deg, rgba(255, 255, 255, 0) 52.97% 52.97%, ##c300ff 90.62%, #ffffff3f 100%), linear-gradient(101.9deg, #851ec0 1.09%, #d32e80 50.91%, #a036dd 100.74%);
-  --gradient: linear-gradient(90.93deg, #FDDD47 0.6%, #FB953C 66.79%); */
-
-      /* --primary: linear-gradient(180deg, rgba(255, 255, 255, 0) 100%, #a036dd 100%, #ffffff 100%), linear-gradient(101.9deg, #851ec0 1.09%, #d32e80 50.91%, #a036dd 100.74%);
-    --gradient: linear-gradient(90.93deg, #fddd47 0.6%, #fb953c 66.79%);
-    --gradient-btn: linear-gradient(135deg, #c300ff, #ff0077); */
-}
-
-
-
 
 .row {
   --bs-gutter-x: 1.5rem;
