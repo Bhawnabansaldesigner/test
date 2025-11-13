@@ -34,7 +34,7 @@
 }
 
 .heading-text {
-  color: #241B76;
+  color: #2b60eb;
 }
 
 .heading-contant {
@@ -491,6 +491,15 @@ textarea {
 }
 
 
+@media (min-width: 765px) {
+  .text-para,
+  .text-para {
+    font-size: 22px;
+    margin-top: 10px;
+    margin: 0 250px;
+  }
+}
+
 @media (min-width: 1008px) {
   .news-para {
     margin: 0px;
@@ -504,6 +513,14 @@ textarea {
     margin: 20px;
   }
 
+  /* .text-para,
+  .text-para {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 10px;
+    font-weight: 400;
+    margin: 0 150px;
+  } */
   
 
 }
@@ -517,13 +534,7 @@ textarea {
 
 @media (max-width: 768px) {
  
-  .text-para,
-  .text-para {
-    font-size: 16px;
-    line-height: 1.7;
-    margin-top: 10px;
-    font-weight: 400;
-  }
+  
 
   .stats {
     grid-template-columns: repeat(2, 1fr);

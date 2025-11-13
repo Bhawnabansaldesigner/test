@@ -203,7 +203,7 @@ p,
 /* Space start ////////////*/
 
 .space {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 60px;
 }
 
@@ -275,7 +275,7 @@ p,
 
 .btn-primary {
   background: white;
-  color: #241B76;
+  color: #2b60eb;
 }
 
 .btn-primary:hover {
@@ -290,7 +290,7 @@ p,
 
 .btn-outline:hover {
   background: white;
-  color: #241B76;
+  color: #2b60eb;
 }
 
 .badge.purple {
